@@ -32,7 +32,7 @@ const AddPost = () => {
                 sx={{
                     position: "fixed",
                     bottom: 20,
-                    left: { xs: "calc(50%)", md: 20 },
+                    left: { xs: "calc(45%)", md: 20 },
                 }}
             >
                 <Fab color="secondary" aria-label="add">

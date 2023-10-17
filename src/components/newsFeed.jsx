@@ -8,7 +8,6 @@ import CardActions from '@mui/material/CardActions';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -20,8 +19,8 @@ const NewsFeed = () => {
             <Card sx={{ maxWidth: 600 }}>
                 <CardHeader
                     avatar={
-                        <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                            R
+                        <Avatar sx={{ bgcolor: "#ff5700"}} aria-label="recipe">
+                            B
                         </Avatar>
                     }
                     action={
@@ -35,7 +34,7 @@ const NewsFeed = () => {
                 <CardMedia
                     component="img"
                     height="194"
-                    image="../public/images/b1.png"
+                    image="/images/b1.png"
                     alt="Bookishmate"
                 />
                 <CardContent>
@@ -61,8 +60,8 @@ const NewsFeed = () => {
             <Card sx={{ maxWidth: 600, mt: 5 }}>
                 <CardHeader
                     avatar={
-                        <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                            R
+                        <Avatar sx={{ bgcolor: "#ff5700" }} aria-label="recipe">
+                            B
                         </Avatar>
                     }
                     action={
@@ -76,7 +75,7 @@ const NewsFeed = () => {
                 <CardMedia
                     component="img"
                     height="194"
-                    image="../public\images\b1.png"
+                    image="../images/b1.png"
                     alt="Bookishmate"
                 />
                 <CardContent>
@@ -102,8 +101,8 @@ const NewsFeed = () => {
             <Card sx={{ maxWidth: 600,  mt: 5}}>
                 <CardHeader
                     avatar={
-                        <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                            R
+                        <Avatar sx={{ bgcolor: "#ff5700" }} aria-label="recipe">
+                            B
                         </Avatar>
                     }
                     action={
@@ -117,7 +116,7 @@ const NewsFeed = () => {
                 <CardMedia
                     component="img"
                     height="194"
-                    image="../public\images\b1.png"
+                    image="../images/b1.png"
                     alt="Bookishmate"
                 />
                 <CardContent>

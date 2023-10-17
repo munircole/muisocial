@@ -13,14 +13,14 @@ const LeftSidebar = () => {
             <List>
                 <ListItemButton>
                     <ListItemIcon>
-                        <HomeIcon />
+                        <HomeIcon color='secondary' />
                     </ListItemIcon>
                     <ListItemText primary="Home" />
                 </ListItemButton>
 
                 <ListItemButton>
                     <ListItemIcon>
-                        <ChatIcon />
+                        <ChatIcon color='success' />
                     </ListItemIcon>
                     <ListItemText primary="Messages" />
                 </ListItemButton>
@@ -28,21 +28,21 @@ const LeftSidebar = () => {
 
                 <ListItemButton>
                     <ListItemIcon>
-                        <GroupIcon/>
+                        <GroupIcon color='secondary'/>
                     </ListItemIcon>
                     <ListItemText primary="Friends" />
                 </ListItemButton>
 
                 <ListItemButton>
                     <ListItemIcon>
-                        <ForumIcon/>
+                        <ForumIcon color='success'/>
                     </ListItemIcon>
                     <ListItemText primary="Groups" />
                 </ListItemButton>
 
                 <ListItemButton>
                     <ListItemIcon>
-                        <ContactPageIcon />
+                        <ContactPageIcon color='secondary'/>
                     </ListItemIcon>
                     <ListItemText primary="Pages" />
                 </ListItemButton>

@@ -9,15 +9,15 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 const RightSidebar = () => {
     return (
         <Box marginRight={5} flex={2} sx={{display: {xs: "none", sm: "block"}}}>
-            <Box mt={5}>
+            <Box>
                 <Typography>Recent Conversations</Typography>
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                            <Avatar alt="Remy Sharp" src="/images/munir.jpeg" />
                         </ListItemAvatar>
                         <ListItemText
-                            primary="Brunch this weekend?"
+                            primary="Task Updates"
                             secondary={
                                 <React.Fragment>
                                     <Typography
@@ -26,9 +26,9 @@ const RightSidebar = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        Ali Connors
+                                        Luq
                                     </Typography>
-                                    {" — I'll be in your neighborhood doing errands this…"}
+                                    {" — The task has been completed...."}
                                 </React.Fragment>
                             }
                         />
@@ -36,10 +36,10 @@ const RightSidebar = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+                            <Avatar alt="munir" src="/images/munir.jpeg" />
                         </ListItemAvatar>
                         <ListItemText
-                            primary="Summer BBQ"
+                            primary="BM team"
                             secondary={
                                 <React.Fragment>
                                     <Typography
@@ -48,7 +48,7 @@ const RightSidebar = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        to Scott, Alex, Jennifer
+                                        to Abu
                                     </Typography>
                                     {" — Wish I could come, but I'm out of town this…"}
                                 </React.Fragment>
@@ -58,10 +58,10 @@ const RightSidebar = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+                            <Avatar alt="Abel Nino" src="/images/munir.jpeg" />
                         </ListItemAvatar>
                         <ListItemText
-                            primary="Oui Oui"
+                            primary="BM Community"
                             secondary={
                                 <React.Fragment>
                                     <Typography
@@ -70,9 +70,9 @@ const RightSidebar = () => {
                                         variant="body2"
                                         color="text.primary"
                                     >
-                                        Sandra Adams
+                                        Abel Nino
                                     </Typography>
-                                    {' — Do you have Paris recommendations? Have you ever…'}
+                                    {' — What is bookishmate used for?…'}
                                 </React.Fragment>
                             }
                         />
