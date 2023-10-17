@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Box, Stack} from '@mui/material';
+import LeftSidebar from './components/leftSidebar';
+import NewsFeed from './components/newsFeed';
+import RightSidebar from './components/rightSidebar';
+import Navbar from './components/navbar';
+import AddPost from './components/addPost';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Box>
+        <Navbar/>
+        <Stack direction="row" paddingTop={5} spacing={2} justifyContent={'space-between'}>
+          <LeftSidebar />
+          <NewsFeed />
+          <RightSidebar />
+        </Stack>
+        <AddPost />
+      </Box>
+
   );
 }
 
